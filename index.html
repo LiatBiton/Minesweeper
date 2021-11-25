@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <body onload="init()"></body>
+    <h1> Mine Sweeper</h1>
+    <div class="modal"></div>
+    <div class="win-lost"> </div>
+    <div class="timer">timer: <spen>000</spen>
+    </div>
+    <br>
+    <div class="boardsSize">
+        <h4>Choose your Level:</h4>
+        <input type="radio" name="optradio" id="easy" checked />Beginner
+        <input type="radio" name="optradio" id="hard" />Medium
+        <input type="radio" name="optradio" id="extreme" />Expert
+    </div>
+    <div class="button">
+        <button class="init-button" onclick="init()">😊</button>
+    </div>
+    <div class="minesNumber">
+        <h2>number of mines: <span>0</span></h2>
+    </div>
+    <div class="board-container"></div>
+    <br>
+    <div class="footer"> Liat Biton </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

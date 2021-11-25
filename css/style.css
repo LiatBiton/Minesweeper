@@ -1,0 +1,90 @@
+h1{
+    text-align: center;
+}
+.cell{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-style: groove;
+    border-color: rgb(220, 216, 223);
+    background-color : rgb(167, 166, 166);
+}
+
+.boardsSize{
+    background-color: #eef1f1;
+    padding: 0px 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px; 
+}
+
+
+.timer{
+    display: list-item;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #eef1f1;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.button{
+    text-align: center;
+}
+
+.minesNumber{
+    display: list-item;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #eef1f1;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.board-container{
+    text-align: center;
+    display: aouto;
+    text-align: -webkit-center;
+}
+
+.win-lost {
+    text-align: center;
+    margin: auto;
+    background-color: #ecdff7;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.footer{
+    color: black;
+    background-color: #ecdff7;
+    text-align: center;
+    display: aouto;
+    text-align: -webkit-center;
+}
+
+.shown{
+    background-color : rgb(245, 241, 244);
+}
+
+
+.init-button{
+    font-size: 25px;
+}
