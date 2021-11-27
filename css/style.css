@@ -1,40 +1,60 @@
-h1{
-    text-align: center;
-}
-.cell{
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    border-style: groove;
-    border-color: rgb(220, 216, 223);
-    background-color : rgb(167, 166, 166);
+body {
+    background-image: url("background.jpg");
+    font-family: "Lucida Handwriting", Cursive;
+    text-align: -webkit-center;
 }
 
+h1{
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+    
+}
+
+h2{
+    margin: 0px;
+    font-size: 20px;
+}
+.cell{
+    /* width: 40px;
+    height: 40px; */
+    text-align: center;
+    border-style: outset;
+    border-color: rgb(220, 216, 223);
+    background-color : rgb(167, 166, 166);
+    max-height: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    min-width: 40px;
+    line-height: 1px;
+
+}
+
+
 .boardsSize{
+    width: 30%;
     background-color: #eef1f1;
-    padding: 0px 10px;
-    cursor: pointer;
     text-align: center;
     text-decoration: none;
-    outline: none;
-    border: none;
     border-radius: 15px;
-    padding: 5px 15px; 
+    font-size: 15px;
+    margin: 5px;
+    padding: 0px 15px; 
+}
+.boardsSize h4{
+    font-size: 20px;
+    margin:5px;
 }
 
 
 .timer{
-    display: list-item;
-    width: 100%;
-    justify-content: space-evenly;
+    width: 33%;
     background-color: #eef1f1;
-    cursor: pointer;
     text-align: center;
     text-decoration: none;
-    outline: none;
-    border: none;
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 15px;
+    margin: 5px;
 }
 
 .button{
@@ -42,17 +62,13 @@ h1{
 }
 
 .minesNumber{
-    display: list-item;
-    width: 100%;
-    justify-content: space-evenly;
+    width: 33%;
     background-color: #eef1f1;
-    cursor: pointer;
     text-align: center;
     text-decoration: none;
-    outline: none;
-    border: none;
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 15px;
+    margin: 5px;
 }
 
 .board-container{
@@ -60,6 +76,8 @@ h1{
     display: aouto;
     text-align: -webkit-center;
 }
+
+
 
 .win-lost {
     text-align: center;
@@ -78,13 +96,64 @@ h1{
     text-align: center;
     display: aouto;
     text-align: -webkit-center;
+    border-radius: 15px;
+    width: 30%;
+    margin: 5px;
 }
 
 .shown{
     background-color : rgb(245, 241, 244);
+    text-align: center;
+    border-style: outset;
+    max-height: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    min-width: 40px;
+    font-weight: bolder;
 }
 
 
 .init-button{
     font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: auto;
+}
+
+table{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    table-layout: fixed;
+}
+
+.burn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5px;
+}
+
+.live{
+    font-size: 30px;
+    text-align: left;
+}
+
+.hints{
+    font-size: 30px;
+    text-align: left;
+}
+
+.hint-button {
+    font-size: 30px;
+    text-align: left;
+
+}
+
+.hint-button button{
+    font-size: 30px;
+    text-align: left;
+    border: none;
+    background: bottom;
 }
