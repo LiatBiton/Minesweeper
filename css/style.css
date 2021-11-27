@@ -2,6 +2,7 @@ body {
     background-image: url("background.jpg");
     font-family: "Lucida Handwriting", Cursive;
     text-align: -webkit-center;
+    background-size: 100vw 100vh;
 }
 
 h1{
