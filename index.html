@@ -12,9 +12,11 @@
 <body>
     <body onload="init()"></body>
     <h1> Mine Sweeper</h1>
-    <div class="live"> lives: <span>'💛'</span></div>
-    <div class= "hint-button" > hints:
-       <button onclick="takeHint(this)">💡</button>
+    <div style="position: absolute;">
+        <div class="live"> lives: <span>'💛'</span></div>
+        <div class= "hint-button" > hints:
+            <button onclick="takeHint(this)">💡</button>
+        </div>
     </div>
     <div class="modal"></div>
     <div class="win-lost"> </div>
@@ -25,7 +27,7 @@
         <input type="radio" name="optradio" id="hard" />Medium
         <input type="radio" name="optradio" id="extreme" />Expert
     <br>
-     <span><button class="init-button" onclick="init()">😊</button></span>
+    <span><button class="init-button" onclick="init()">😊</button></span>
     </div>
     <div class="minesNumber">number of mines: </span><span>0</span></div>
     <div class="board-container"></div>
